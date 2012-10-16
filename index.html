@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profanity Filter</title>
+<!-- Style sheet -->
+<link href="css/index.css" rel="stylesheet">
+<!-- jQuer CDN -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="javascript/profanityFilter.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#comment").profanityFilter();
+});
+
+</script>
+</head>
+
+<body>
+<textarea rows="10" cols="30" id="comment"></textarea>
+<br/>
+<button autofocus="autofocus" type="button" value="Submit">Submit</button>
+
+</body>
+</html>
+
